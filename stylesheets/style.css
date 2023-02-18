@@ -6,6 +6,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #eeededec;
+    font-family: 'josefin sans';
 }
 
 
@@ -53,7 +54,7 @@ main{
     flex-direction: column;
     width: 50%;
     padding-right: 20px;
-    height: 450px;
+    height: 87%;
     padding-left: 11%;
 }
 .content h2{
@@ -62,14 +63,14 @@ main{
 }
 .content p{
     padding-bottom: 30px;
-    font-size: 22px;
+    font-size: 24px;
 }
 .contact{
     display: flex;
     flex-direction: column;
     text-align: left;
     padding-inline: 20px;
-    height: 450px;
+    height: 90%;
     width: 50%;
     background-color: rgba(250, 249, 249);
     margin-right: 11%;
@@ -83,23 +84,43 @@ main{
 }
 .contact p{
     padding-block: 10px;
-    font-size: 22px;
-    padding-bottom: 30px;
+    font-size: 24px;
+    padding-bottom: 20px;
 }
 input{
-    margin-block: 10px;
-    padding: 17px;
+    margin-block: 1.7%;
+    padding: 4%;
     background-color: #eeededec;
     color: #696969;   
     outline: none; 
     border: none;
     border-radius: 5px;
+    min-height: 15px;
+    
+    
+}
+#note{
+    color: #c9c5c5;
+    font-size: 15px;
+    padding-top: 10px;
+    
+}
+    
+
+
+::placeholder{
+    font-size: 15px;
+}
+.btns{
+    border: 1.7px solid #dcdcdc
     
 }
 #btn{
     background-color: green;
     color: white;
     cursor: pointer;
+    margin-bottom: 5px;
+    
 }
 footer{
     width: 100%;
@@ -112,4 +133,58 @@ footer{
 }
 #green-text{
     color: green;
+}
+@media screen and (max-width: 600px){
+    
+    .logo, .links{
+        padding: 5%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .content, .contact{
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        height: 60px;
+        justify-content: space-around;
+    }
+    header h4{
+        display: none;
+    }
+    #logo{
+        width: 100px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo, .links{
+        padding-inline: 2%;
+        font-size: 10px;
+    }
+    .links{
+        padding-right: 100px;
+
+    }
+    .icon{
+        width: 30px;
+    }
+
+    .content{
+        margin-left: 5%;
+        width: 85%;
+        height: 350px;
+    }
+    .contact{
+        margin-right: 5%;
+        width: 85%;
+        height: 350px;
+    }
+   
 }
