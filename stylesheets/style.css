@@ -11,7 +11,6 @@ body{
     font-family: 'josefin sans';
 }
 
-
 header{
     width: 100%;
     height: 65px;
@@ -21,6 +20,7 @@ header{
     background-color: rgb(250, 249, 249);
     align-items: center;
     border-bottom: 3px solid #dcdcdc;
+    
 }
 .logo{
     padding-inline: 11%;
@@ -129,6 +129,8 @@ footer{
     display: flex;
     flex-direction: space-between;
     align-items: center;
+    background-color: #eeededec;
+   
    
 }
 .left{
@@ -163,13 +165,14 @@ svg{
          
 }
 @media screen and (max-width: 620px){
-    html,body{
-        height: 100%;
-
-    }
+   
     body{
+        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+       
+        
     };
     header{
         margin: 0;
@@ -199,17 +202,26 @@ svg{
         padding: 15px;
         margin-inline: 4%;
     }
+    footer{
+        margin-inline: 0;
+        padding: 0;
+    }
+    .last-icons, .left{
+        padding-inline: 0;
+        margin-inline: 5%;
+    }
+    
+    
+
     
 }
 @media screen and (max-width:480px){
-   html{
-        box-sizing: border-box;
-   }
+   
     header{
         height: 60px;
         justify-content: space-between;
         padding: 0;
-        margin: 0;
+        
     }
     header h4{
         display: none;
@@ -258,5 +270,18 @@ svg{
     .contact input{
         padding: 10px;
         margin-inline: 4%;
+    }
+    footer{
+        padding: 0;
+        margin-inline: 0;
+    }
+    
+    .left{
+        padding: 0;
+        margin-inline: 5%;
+    }
+    .last-icons{
+        padding: 0;
+        margin-inline: 5%;
     }
 }
