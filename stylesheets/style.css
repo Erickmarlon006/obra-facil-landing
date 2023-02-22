@@ -27,6 +27,7 @@ header{
 }
 #logo{
     width: 130px;
+   
 }
 .links{
     padding-inline: 11%;
@@ -111,8 +112,12 @@ input{
 
 
 ::placeholder{
-    font-size: 15px;
+    font-size: 17px;
+    font-family: 'josefin sans';
+    font-weight: 400;
 }
+
+
 .btns{
     border: 1.7px solid #dcdcdc
     
@@ -122,7 +127,13 @@ input{
     color: white;
     cursor: pointer;
     margin-bottom: 5px;
+    font-family: 'josefin sans' ;
+    font-weight: 600;
+    font-size: 13px;
     
+}
+#btn:hover{
+    background-color: darkgreen;
 }
 .push{
     height: 65px;
@@ -168,13 +179,15 @@ svg{
     }
          
 }
-@media screen and (max-width: 620px){
+@media screen and (max-width: 630px){
    
     body{
         height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
+        min-height: 1084px;
+        
        
         
     };
@@ -202,6 +215,7 @@ svg{
         padding-block: 10px ;
         margin-inline: 20px;
     }
+
     input{
         padding: 15px;
         margin-inline: 4%;
@@ -209,9 +223,9 @@ svg{
     footer{
         margin-inline: 0;
         padding: 0;
-        margin-top: 80%;
-        margin-bottom: 0;
+        position: relative;
         padding-top: 10px;
+        margin-top: 10rem;
     }
     .last-icons, .left{
         padding-inline: 0;
@@ -223,7 +237,9 @@ svg{
     
 }
 @media screen and (max-width:520px){
-   
+    body{
+        min-height: 1080px;
+    }
     header{
         height: 60px;
         justify-content: space-between;
@@ -282,8 +298,6 @@ svg{
     footer{
         padding: 0;
         margin-inline: 0;
-        margin-top: 85%;
-        margin-bottom: 0;
         
     }
     
@@ -294,5 +308,10 @@ svg{
     .last-icons{
         padding: 0;
         margin-inline: 5%;
+    }
+}
+@media  screen and (max-width:420px) {
+    body{
+        min-height: 1100px;
     }
 }
