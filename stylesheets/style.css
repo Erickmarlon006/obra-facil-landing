@@ -243,6 +243,7 @@ svg{
     main{
         display: flex;
         flex-direction: column;
+        padding-top: 10px;
     }
     .logo, .links{
         font-size: 10px;
