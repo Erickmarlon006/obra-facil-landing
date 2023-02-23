@@ -176,7 +176,7 @@ svg{
     fill: #00acee
 }
 #Instagram:hover{
-    fill: rgb(202, 0, 125)
+    fill: rgb(202, 0, 125);
 }
 @media screen and (max-width: 1000px){
     input{
@@ -246,7 +246,7 @@ svg{
 }
 @media screen and (max-width:520px){
     body{
-        min-height: 1080px;
+        min-height: 1087px;
     }
     header{
         height: 60px;
@@ -300,7 +300,7 @@ svg{
         margin-inline: 10px;
     }
     .contact input{
-        padding: 10px;
+        padding: 13px;
         margin-inline: 4%;
     }
     footer{
@@ -320,6 +320,6 @@ svg{
 }
 @media  screen and (max-width:420px) {
     body{
-        min-height: 1100px;
+        min-height: 1115px;
     }
 }
