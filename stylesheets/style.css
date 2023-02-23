@@ -109,8 +109,6 @@ input{
     
 }
     
-
-
 ::placeholder{
     font-size: 17px;
     font-family: 'josefin sans';
@@ -169,6 +167,16 @@ svg{
 }
 #green-text{
     color: green;
+}
+#Facebook:hover{
+    fill: #3b5998 ;
+
+}
+#Twitter:hover{
+    fill: #00acee
+}
+#Instagram:hover{
+    fill: rgb(202, 0, 125)
 }
 @media screen and (max-width: 1000px){
     input{

@@ -2,7 +2,7 @@
 
 Descreva aqui detalhes de implementação, configuração e execução do projeto:
 
-Foi um projeto bem legal de se fazer, como eu já havia estudado um pouco sobre html e css eu consegui fazer o layout e a estilização com um pouco mais de facilidade, no entanto eu tive dificuldade em colocar o footer (rodapé) em baixo dos outros elementos na página em dispositivos menores, e a fazer os commits para o github. Depois de várias pesquisas na internet eu consegui fazer eu estou feliz com o resultado.
+Foi um projeto bem legal de se fazer, como eu já havia estudado um pouco sobre html e css eu consegui fazer o layout e a estilização com um pouco mais de facilidade, no entanto eu tive dificuldade em colocar o footer (rodapé) em baixo dos outros elementos na página em dispositivos menores, e a fazer os commits para o github. Depois de várias pesquisas na internet eu consegui fazer e eu estou feliz com o resultado.
 
 Estrutura inicial do projeto da landing:
 - **images/** — aqui estão as imagens do site.
