@@ -148,7 +148,7 @@ footer{
 }
 .left{
     padding-left: 11%;
-   width: 85%;
+    width: 85%;
 }
 .last-icons{
     
@@ -178,6 +178,70 @@ svg{
 #Instagram:hover{
     fill: rgb(202, 0, 125);
 }
+@media (min-height: 800px) and (min-width: 1280px) {
+    header{
+        height: 97px;
+    }
+    #logo{
+        width: 180px;
+    }
+    .links h4{
+        font-size: 20px;
+    }
+    .links img{
+        width: 45px;
+    }
+    .content, .contact{
+        height: 540px;
+    }
+    .content h2{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .content p{
+        font-size: 28px;
+    }
+    .contact h2{
+        margin-top: 15px;
+        font-size: 33px;
+
+    }
+    .contact p{
+        font-size: 28px;
+
+    }
+
+    input{
+        padding: 5%;
+    }
+    #note{
+        font-size: 20px;
+    }
+    ::placeholder{
+        font-size: 22px;
+    }
+    main{
+        height: 600px;
+    }
+    footer{
+        height: 100px;
+    }
+    .left h4:first-child{
+        font-size: 23px;
+    }
+    #green-text{
+        font-size: 19px;
+    }
+    svg{
+        height: 40px;
+        width: 40px;
+    }
+    .last-icons{
+        padding-right: 40px;
+    }
+}
+
+
 @media screen and (max-width: 1000px){
     input{
         padding: 5.5%;
