@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
 }
 body{
     width: 100%;
@@ -38,6 +39,9 @@ header{
 .icon{
     width: 30px;
     padding-inline: 2px;
+}
+#siga-conectado{
+    color: gray;
 }
    
 #facebook{
@@ -89,6 +93,10 @@ main{
     padding-block: 10px;
     font-size: 24px;
     padding-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
 }
 input{
     margin-block: 1.7%;
@@ -145,6 +153,9 @@ footer{
     background-color: #eeededec;
   
    
+}
+#footer-text{
+    color: gray;
 }
 .left{
     padding-left: 11%;
@@ -303,9 +314,6 @@ svg{
         padding-inline: 0;
         margin-inline: 5%;
     }
-    
-    
-
     
 }
 @media screen and (max-width:520px){
