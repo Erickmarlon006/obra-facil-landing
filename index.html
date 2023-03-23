@@ -44,13 +44,15 @@
         <div class="contact">
             <h2>OBRAS RÁPIDAS E BARATAS!</h2>
             <p>Somos especialistas em obras, reformas e construção de sonhos.</p>
-            <form name="lead" action="lead" method="POST">
-                <input type="text" name="name" placeholder="Seu nome completo" required class="btns">
-                <input type="tel" name="phone" placeholder="Seu número de telefone" required class="btns">
-                <input type="email" name="email" placeholder="Seu e-mail" required class="btns">
-                <input type="button" value="FALE CONOSCO" required id="btn">
-            <p id="note">*Obs.: entraremos em contato em até 24 horas</p>
+            <span id="message"></span>
+            <form name="lead" action="#" method="post">
+                <input type="text" minlength="3" name="name" id="name" placeholder="Seu nome completo" class="btns" required/>
+                <input type="tel" name="phone" placeholder="Seu número de telefone" class="btns" required/>
+                <input type="email" minlength="3" name="email" placeholder="Seu e-mail" class="btns" required/>
+                 <button id="btn">FALE CONOSCO</button>
+                
             </form>
+            <p id="note">*Obs.: entraremos em contato em até 24 horas</p>
         </div>
        
     </main>
@@ -73,6 +75,7 @@
           
         </div>
     </footer>
+    <script src="./scripts/script.js"></script>
         
 </body>
 

@@ -94,6 +94,11 @@ main{
     font-size: 24px;
     padding-bottom: 20px;
 }
+#message{
+    font-size: 1rem;
+    color: red;
+    font-style: italic;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -110,6 +115,7 @@ input{
     
     
 }
+
 #note{
     color: #c9c5c5;
     font-size: 15px;
@@ -136,6 +142,13 @@ input{
     font-family: 'josefin sans' ;
     font-weight: 600;
     font-size: 13px;
+    margin-block: 1.7%;
+    padding: 4%;
+    outline: none; 
+    border: none;
+    border-radius: 5px;
+    min-height: 15px;
+    
     
 }
 #btn:hover{
@@ -184,7 +197,7 @@ svg{
 
 }
 #Twitter:hover{
-    fill: #00acee
+    fill: #00acee;
 }
 #Instagram:hover{
     fill: rgb(202, 0, 125);
@@ -225,6 +238,9 @@ svg{
     input{
         padding: 5%;
     }
+    #btn{
+        padding: 5%;
+    }
     #note{
         font-size: 20px;
     }
@@ -255,6 +271,9 @@ svg{
 
 @media screen and (max-width: 1000px){
     input{
+        padding: 5.5%;
+    }
+    #btn{
         padding: 5.5%;
     }
     .contact p {
@@ -300,6 +319,10 @@ svg{
     }
 
     input{
+        padding: 15px;
+        margin-inline: 4%;
+    }
+    #btn{
         padding: 15px;
         margin-inline: 4%;
     }
@@ -372,6 +395,10 @@ svg{
         margin-inline: 10px;
     }
     .contact input{
+        padding: 13px;
+        margin-inline: 4%;
+    }
+    #btn{
         padding: 13px;
         margin-inline: 4%;
     }
